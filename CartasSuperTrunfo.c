@@ -22,6 +22,7 @@ int main() {
     float area2;
     float pib2;
     int pontosTuristicos2;
+
   // Área para entrada de dados
  printf("=== Cadastro da Carta 1 ===\n");
 
@@ -71,6 +72,7 @@ int main() {
     scanf("%d", &pontosTuristicos2);
 
   // Área para exibição dos dados da cidade
+  
   printf("\n--- Carta 2 ---\n");
     printf("Estado: %c\n", estado2);
     printf("Codigo: %s\n", codigo2);

@@ -77,6 +77,7 @@ int main() {
 
      densidade1 = populacao1 / area1;
      pibPerCapita1 = pib1 / populacao1;
+     
      densidade2 = populacao2 / area2;
      pibPerCapita2 = pib2 / populacao2;
 

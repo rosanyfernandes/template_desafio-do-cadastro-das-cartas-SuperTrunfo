@@ -8,7 +8,7 @@ int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 // Carta 1
     char estado1;
-    char codigo1[4];
+    char codigo1[5];
     char nomeCidade1[50];
     int populacao1;
     float area1;
@@ -18,7 +18,7 @@ int main() {
     float pibPerCapita1;
      // Carta 2
     char estado2;
-    char codigo2[4];
+    char codigo2[5];
     char nomeCidade2[50];
     int populacao2;
     float area2;
@@ -75,11 +75,11 @@ int main() {
     printf("Numero de Pontos Turisticos: ");
     scanf("%d", &pontosTuristicos2);
 
-     densidade1 = populacao1 / area1;
-     pibPerCapita1 = pib1 / populacao1;
+     densidade1 = (float)populacao1 / area1;
+     pibPerCapita1 = pib1 / (float)populacao1;
      
-     densidade2 = populacao2 / area2;
-     pibPerCapita2 = pib2 / populacao2;
+     densidade2 = (float)populacao2 / area2;
+     pibPerCapita2 = pib2 / (float)populacao2;
 
   // Área para exibição dos dados da cidade
   
